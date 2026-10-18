@@ -1,3 +1,7 @@
+# Environment
+venv/
+.venv/
+
 # Data (large, stays local)
 data/raw/*
 data/processed/*
@@ -6,29 +10,15 @@ data/processed/*
 *.csv
 *.parquet
 
-# Python
+# Python / Jupyter
 __pycache__/
 *.py[cod]
-*.egg-info/
-.pytest_cache/
-
-# Virtual environments
-venv/
-.venv/
-env/
-
-# Jupyter
 .ipynb_checkpoints/
-
-# Streamlit secrets
-.streamlit/secrets.toml
 
 # IDE / OS
 .vscode/
-.idea/
 .DS_Store
 Thumbs.db
 
-# Model artifacts: remove the line below if you want to commit the model
-# (use Git LFS if the file is larger than ~50 MB)
-# artifacts/*.joblib
+# Streamlit secrets
+.streamlit/secrets.toml
