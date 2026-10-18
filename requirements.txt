@@ -8,3 +8,5 @@ streamlit>=1.30
 plotly>=5.18
 ipykernel
 jupyter
+matplotlib
+seaborn

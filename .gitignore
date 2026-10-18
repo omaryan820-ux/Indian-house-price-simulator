@@ -9,6 +9,7 @@ data/processed/*
 !data/processed/.gitkeep
 *.csv
 *.parquet
+!data/processed/clean_metro_housing.parquet
 
 # Python / Jupyter
 __pycache__/
