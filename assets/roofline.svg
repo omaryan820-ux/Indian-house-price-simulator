@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" preserveAspectRatio="xMidYMax slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E6EFFD"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="260" fill="url(#sky)"/>
+  <circle cx="930" cy="70" r="38" fill="#FFD27A" opacity="0.85"/>
+
+  <!-- far buildings -->
+  <g fill="#C7DBFA">
+    <rect x="40" y="120" width="60" height="140"/>
+    <rect x="130" y="90" width="50" height="170"/>
+    <rect x="320" y="110" width="70" height="150"/>
+    <rect x="560" y="80" width="55" height="180"/>
+    <rect x="760" y="105" width="65" height="155"/>
+    <rect x="1090" y="125" width="70" height="135"/>
+  </g>
+  <!-- mid buildings -->
+  <g fill="#8FB6F5">
+    <rect x="90" y="150" width="70" height="110"/>
+    <rect x="230" y="130" width="60" height="130"/>
+    <rect x="430" y="140" width="80" height="120"/>
+    <rect x="650" y="120" width="60" height="140"/>
+    <rect x="880" y="135" width="70" height="125"/>
+    <rect x="980" y="100" width="55" height="160"/>
+  </g>
+  <!-- front houses -->
+  <g fill="#1D5FD0">
+    <polygon points="170,205 215,160 260,205"/>
+    <rect x="178" y="205" width="74" height="55"/>
+    <polygon points="520,210 570,160 620,210"/>
+    <rect x="530" y="210" width="80" height="50"/>
+    <polygon points="800,205 845,158 890,205"/>
+    <rect x="808" y="205" width="74" height="55"/>
+    <polygon points="1010,210 1055,165 1100,210"/>
+    <rect x="1018" y="210" width="74" height="50"/>
+  </g>
+  <!-- lit windows -->
+  <g fill="#FFE29A">
+    <rect x="192" y="220" width="12" height="14"/>
+    <rect x="226" y="220" width="12" height="14"/>
+    <rect x="548" y="225" width="12" height="14"/>
+    <rect x="582" y="225" width="12" height="14"/>
+    <rect x="822" y="220" width="12" height="14"/>
+    <rect x="856" y="220" width="12" height="14"/>
+    <rect x="1036" y="225" width="12" height="14"/>
+    <rect x="1066" y="225" width="12" height="14"/>
+  </g>
+  <rect x="0" y="254" width="1200" height="6" fill="#143F8C"/>
+</svg>
