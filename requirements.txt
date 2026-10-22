@@ -10,3 +10,5 @@ ipykernel
 jupyter
 matplotlib
 seaborn
+gspread
+google-auth
