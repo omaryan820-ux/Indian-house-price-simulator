@@ -3,6 +3,7 @@ import html
 import plotly.graph_objects as go
 import streamlit as st
 
+
 from src.charts import AMBER, BLUE, chart_title, show, style
 from src.city_data import CITIES, CONFIDENCE, GROWTH_RATE_PCT, YEARS_TO_2026
 from src.financial_engine import ASSUMPTION_META, adjust_price_for_growth
