@@ -29,6 +29,9 @@ GLOBAL_CSS = """
 }
 .eyebrow { color: #1D5FD0; font-weight: 700; letter-spacing: 0.14em;
            text-transform: uppercase; font-size: 0.8rem; margin-bottom: 0.5rem; }
+.brand { color:#2F7A57; font-weight:700; letter-spacing:0.12em; text-transform:uppercase;
+         font-size:0.85rem; margin-bottom:0.5rem; }
+.brand span { color:#6B7280; font-weight:500; letter-spacing:0.04em; text-transform:none; }
 .hero-title { font-size: 3.3rem; font-weight: 800; line-height: 1.1;
               letter-spacing: -0.02em; color: #111827; margin: 0 0 0.7rem 0; }
 .hero-title .accent {

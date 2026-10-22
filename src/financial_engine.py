@@ -741,3 +741,12 @@ def run_full_analysis(property_price_lakhs: float, area_sqft: float, city: str,
     result["irr_matrix"] = build_irr_matrix(property_price_lakhs, area_sqft, city, a)
     result["warnings"] = check_inputs(property_price_lakhs, area_sqft, city, a)
     return result
+
+def run_light_analysis(property_price_lakhs: float, area_sqft: float, city: str,
+                       assumptions: dict = None) -> dict:
+    """Fast version for the Simulator page: no sensitivity grids, no IRR matrix."""
+    a = get_assumptions(assumptions)
+    result = _analyse(property_price_lakhs, area_sqft, city, a)
+    result["assumptions"] = a
+    result["warnings"] = check_inputs(property_price_lakhs, area_sqft, city, a)
+    return result
