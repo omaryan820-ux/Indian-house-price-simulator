@@ -26,7 +26,7 @@ metrics, monthly, upfront, annual = (analysis["metrics"], analysis["monthly"],
                                      analysis["upfront"], analysis["annual"])
 rvb, breakeven = cached_rent_vs_buy(price, area, city, a)
 
-st.title("Analysis")
+st.title("ANALYSIS")
 st.caption(case["locality"].split(" | ", 1)[-1] + ", " + city + "  ·  " + str(case["bhk"]) + " BHK  ·  "
            + format(area, ",") + " sq ft  ·  Price used " + format_inr_short(price * 100000)
            + "  ·  " + mode)

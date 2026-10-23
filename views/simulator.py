@@ -127,7 +127,7 @@ def lakhs_text(value_lakhs):
 
 
 # ---------- page ----------
-st.title("Simulator")
+st.title("SIMULATOR")
 st.caption(locality.split(" | ", 1)[-1] + ", " + city + "  ·  " + str(bhk) + " BHK  ·  "
            + format(area, ",") + " sq ft  ·  " + mode)
 
